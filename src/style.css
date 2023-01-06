@@ -1,0 +1,132 @@
+
+body {
+    margin: auto;
+    background-color: dimgray;
+    color: azure;
+}
+
+.EnTete {
+    font-size: 1.5em;
+    box-shadow: rgba(0, 0, 0, 0.8) 300px 3px 24px ;
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+    align-items: center;
+    display: flex;
+    background-color: darkgray;
+}
+
+.Moi {
+    font-size: 1.6em;
+    text-align: left;
+    align-self: center;
+    margin: 0.4em;
+    margin-left: 2%;
+    color: #555454;
+}
+
+nav {
+    align-content: space-around;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+}
+
+nav ul {
+    font-weight: bold;
+    text-decoration-color: azure;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0.4em 2em;
+    font-size: 25px;
+
+}
+nav ul li a {
+    background-color: dimgrey;
+    color: azure;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    color: dimgrey;
+    background-color: azure;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+    
+}
+
+.contenu {
+    padding: 5% ;
+    align-content: center;
+    position: relative;
+    margin: 0 3em;
+    display: flex;
+    place-content: space-around;
+    background-color: dimgray;
+    align-items: center;
+}
+
+.MaPhoto {
+    clip-path: inset(50px 0 40px);
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Roboto;
+    font-family: 'Raleway', sans-serif;
+    color: azure;
+}
+
+h1 {
+    text-align: center;
+    font-weight: normal;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.5em;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+    color: azure;
+}
+
+em {
+    color: antiquewhite;
+    font-style: normal;
+}
+
+.contact {
+    font-size: 1.5em;
+    background-color: darkgray;
+    text-align: center;
+    color: dimgrey;
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    margin-top: 100px;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.8) 0 3px 24px ;
+    align-content: space-around;
+}
+
+.contact h1 {
+    color: azure;
+    font-size: 1em;
+}
+
+.contact a {
+    color: dimgrey;
+}
+
+.contact ul li {
+    display: block;
+    align-content: space-around;
+
+}
